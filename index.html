@@ -9,14 +9,6 @@ background-image: url("foto.jpg");
 <title> ФГБОУ ВО "МГТУ "Станкин"</title>
 </head>
 <body>
-   <form>
-   <p><select name="select" size="3" multiple>
-    <option selected value="s1">Лабораторная работа №1</option>
-    <option value="s2">Лабораторная работа №2</option>
-    <option value="s3">Лабораторная работа №3</option>
-      </select>
-   <input type="submit" value="Открыть"></p> 
-  </form>
 <h1><center>Личная страница</center></h1>
 <h2><center>Студентка группы: ИДМ 18-02</center></h2>
 </hr>
@@ -25,26 +17,60 @@ background-image: url("foto.jpg");
 <p>
 <h1><center>Отчеты по лабораторным работам</center></h1>
 <hr/>
-<h2><center>Лабораторная работа №1</center></h2>
+<h2>
+<center><a href="#" onClick="document.getElementById('pokazat1').style.display='none';document.getElementById('skryt1').style.display='';return false;">Лабораторная работа №1 </a></center>
+ <div id="pokazat1"></div></h2> 
+ <div id="skryt1" style="display:none">
 <h3><center>На тему: "Экосистема разработки программ с открытым кодом"</center></h3>
-<hr/>
-<h2><center>Лабораторная работа №2</center></h2>
-<h3><center>На тему: "Разработка простого веб-приложения"</center></h3>
-<h4>Разработка простого Веб-приложения</h4>
-<p>Проектирование и разработка индивидуального или коллективного веб-приложения (SPA) с использованием HTML, CSS, JavaScript + JSON/XML.</p>
-<hr>   
-<h2><center>Лабораторная работа №3</center></h2>
-<h3><center>На тему: "Настройка локальной сети передачи данных"</center></h3>
-<p>Цель данной работы - ознакомиться с принципами работы компьютерных сетей, базовой настройкой сетевого оборудования и статической маршрузитацией.</p>
-<p>Расчет диапазонов подсетей.</p>
-<form action="" method="post">
-<b>Благодаря какому протоколу стало возможно объединение разнородных по архитектуре сетей?</b><br>
-<label><input type="radio" name="answer" value="1"> FTP </label><br>
-<label><input type="radio" name="answer" value="2"> DNS </label><br>
-<label><input type="radio" name="answer" value="3"> IP </label><br>
-<label><input type="radio" name="answer" value="4"> HTTP </label><br>
-<input type="submit" name="sbm_answer" value="ОК">
-</form>
+
+<h4>1, Экосистема разработки программ с открытым кодомСоздание персональной страницы-отчета на github и работа с git</h4>
+<h4>2. Регистрация на GitHub</h4>
+<h4>3. Подключиться к репозиторию</h4>
+<h4>4. Создать личную страницу </h4>
+<h4>5. 'https://oksanarozhkova.github.io'>Страница пользователя</h4>
+<h4>6. Создать персональную веб страницу-отчет с использованием html, css, js</h4>
+<h4>7. Персональная страница-отчет</h4>
+<h4>8. Загрузить персональную веб страницу-отчет в репозиторий ИДМ-18-02 по курсу "Интернет-технологии" на GitHub.</h4>
+<h4>9. 'https://github.com/stankin/inet-2018/tree/master/IDM-18-02'>Исходный код на index.html, css и js</h4>
+
+        <a href="#" onClick="document.getElementById('skryt1').style.display='none';document.getElementById('pokazat1').style.display='';return false;">Скрыть текст</a>
+
+ </div> 
+
+<h2>
+<center><a href="#" onClick="document.getElementById('pokazat2').style.display='none';document.getElementById('skryt2').style.display='';return false;">Лабораторная работа №2 </a></center>
+ <div id="pokazat2"></div></h2> 
+ <div id="skryt2" style="display:none">
+<h3><center>На тему: ""</center></h3>
+<h4>
+
+</h4>
+        <a href="#" onClick="document.getElementById('skryt2').style.display='none';document.getElementById('pokazat2').style.display='';return false;">Скрыть текст</a>
+
+ </div> 
+
+<h2>
+<center><a href="#" onClick="document.getElementById('pokazat3').style.display='none';document.getElementById('skryt3').style.display='';return false;">Лабораторная работа №3 </a></center>
+ <div id="pokazat3"></div></h2> 
+ <div id="skryt3" style="display:none">
+<h3><center>На тему: ""</center></h3>
+<h4>
+
+</h4>
+        <a href="#" onClick="document.getElementById('skryt3').style.display='none';document.getElementById('pokazat3').style.display='';return false;">Скрыть текст</a>
+
+ </div> 
+
+
+<h2>
+<center><a href="#" onClick="document.getElementById('pokazat4').style.display='none';document.getElementById('skryt4').style.display='';return false;">Подготовка к экзамену</a></center>
+ <div id="pokazat4"></div></h2> 
+ <div id="skryt4" style="display:none">
+<h4>
+
+</h4>
+        <a href="#" onClick="document.getElementById('skryt4').style.display='none';document.getElementById('pokazat4').style.display='';return false;">Скрыть текст</a>
+
+ </div> 
 </body>
 </html>
-

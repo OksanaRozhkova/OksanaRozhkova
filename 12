@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background-image: url("foto.jpg");
+}
+</style>
+<title> ФГБОУ ВО "МГТУ "Станкин"</title>
+</head>
+<body>
+<h1><center>Личная страница</center></h1>
+<h2><center>Студентка группы: ИДМ 18-02</center></h2>
+</hr>
+<h2><center>Рожкова Оксана</center></h2>
+<hr>
+<p>
+<h1><center>Отчеты по лабораторным работам</center></h1>
+<hr/>
+<body class="theme-transit">
+  <section id="content">
+    <h1>Subway - Red Line</h1>
+    <div class="dropdown">
+      <div class="title">Telefonplan</div>
+      <ul>
+        <li>Лабораторная работа №1</li>
+        <li>Лабораторная работа №2</li>
+        <li>Лабораторная работа №3</li>
+      </ul>
+    </div>
+  </section>
+</body>

@@ -1,0 +1,71 @@
+<html lang="rus">
+<head>
+  <meta charset="UTF-8" />
+  <title>Drop Menu</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <p class="commander">Click the Button!</p>
+  <div class="wrapper">
+    <div class="menu">
+      <ul class="menu__list">
+        <li class="menu__list__item"><a href="#">Home</a></li>
+        <li class="menu__list__item"><a href="#">Portfolio</a></li>
+        <li class="menu__list__item"><a href="#">About</a></li>
+      </ul>
+    </div>
+    <div class="button">
+      <span class="button__line"></span>
+      <span class="button__line"></span>
+      <span class="button__line"></span>
+    </div>
+  
+  </div>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background-image: url("foto.jpg");
+}
+</style>
+<title> ФГБОУ ВО "МГТУ "Станкин"</title>
+</head>
+<body>
+<h1><center>Личная страница</center></h1>
+<h2><center>Студентка группы: ИДМ 18-02</center></h2>
+</hr>
+<h2><center>Рожкова Оксана</center></h2>
+<hr>
+<p>
+<h1><center>Отчеты по лабораторным работам</center></h1>
+<hr/>
+<h2><center>Лабораторная работа №1</center></h2>
+<h3><center>На тему: "Экосистема разработки программ с открытым кодом"</center></h3>
+<hr/>
+<h2><center>Лабораторная работа №2</center></h2>
+<h3><center>На тему: "Разработка простого веб-приложения"</center></h3>
+<h4>Разработка простого Веб-приложения</h4>
+<p>Проектирование и разработка индивидуального или коллективного веб-приложения (SPA) с использованием HTML, CSS, JavaScript + JSON/XML.</p>
+<hr>   
+<h2><center>Лабораторная работа №3</center></h2>
+<h3><center>На тему: "Настройка локальной сети передачи данных"</center></h3>
+<p>Цель данной работы - ознакомиться с принципами работы компьютерных сетей, базовой настройкой сетевого оборудования и статической маршрузитацией.</p>
+<p>Расчет диапазонов подсетей.</p>
+<form action="" method="post">
+<b>Благодаря какому протоколу стало возможно объединение разнородных по архитектуре сетей?</b><br>
+<label><input type="radio" name="answer" value="1"> FTP </label><br>
+<label><input type="radio" name="answer" value="2"> DNS </label><br>
+<label><input type="radio" name="answer" value="3"> IP </label><br>
+<label><input type="radio" name="answer" value="4"> HTTP </label><br>
+<input type="submit" name="sbm_answer" value="ОК">
+</form>
+</body>
+</html>

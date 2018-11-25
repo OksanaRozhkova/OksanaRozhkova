@@ -1,41 +1,26 @@
 <!DOCTYPE html>
 <html>
-<title>О HTML выборе</title>
-</head>
-<style>
-body{
-background-image: url("foto.jpg");
-}
-</style>
 <head>
-<h1><center>Малая библиотека сериалов</center></h1>
-</head>
-<body>
+<style>
+body {
+background-image: url ("foto.jpg");
+  }
+</style>
 <title>Малая библиотека сериалов</title>
 </head>
 <body>
-<h3>Жанры</h3>
-<form name="Janr" action="http://ab-w.net/info.php" method="get">
-<input type="checkbox" name="Janr" value="airplane"   />Детектив<br /> 
-<input type="checkbox" name="Janr" value="Prik"       />Приключения<br /> 
-<input type="checkbox" name="Janr" value="Drams"      />Мелодрамма<br /> 
-<input type="checkbox" name="Janr" value="Thriller"   />Триллер<br /> 
+<h1><center>Малая библиотека сериалов</center></h1>
+<h2>Страна производитель:</h2>
+<title>О</title>
+</head>
+<body>
+<form name="state" action="http://ab-w.net/info.php" method="get">
+<input type="checkbox" name="state" value="USA" checked="checked" /> США<br /> 
+<input type="checkbox" name="state" value="Russia" /> Россия<br /> 
+<input type="checkbox" name="state" value="GB" /> Британия<br /> 
+<input type="checkbox" name="state" value="Canada" /> Канада<br /> 
 <input type="submit" value="OK" />
 <input type="reset" value="Reset" />
 </form>
-  
-<h3>Страна</h3>
-<form action="http://ab-w.net/info.php" method="post" name="State">
-<select name="menu" size="1">
-<option value="first">Америка</option>
-<option selected="selected" value="second">Бритакния</option>
-<option value="third">Россия</option>
-<option value="fourth">Канада</option>
-</select>
-</form>
 </body>
 </html>
-
-
-  
-  

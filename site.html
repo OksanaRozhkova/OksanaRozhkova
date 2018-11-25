@@ -11,13 +11,16 @@ background-image: url("foto.jpg");
 <h1><center>Малая библиотека сериалов</center></h1>
 </head>
 <body>
-<form action="http://ab-w.net/info.php" method="post" name="drop_down_box">
-<select name="menu" size="1">
-<option value="first">1 позиция</option>
-<option selected="selected" value="second">2 позиция</option>
-<option value="third">3 позиция</option>
-<option value="fourth">4 позиция</option>
-</select>
+<title>О HTML выборе</title>
+</head>
+<body>
+<form name="travel" action="http://ab-w.net/info.php" method="get">
+<input type="checkbox" name="transport" value="airplane" checked="checked" /> Самолет<br /> 
+<input type="checkbox" name="transport" value="train" /> Поезд<br /> 
+<input type="checkbox" name="transport" value="car" /> Автомобиль<br /> 
+<input type="checkbox" name="transport" value="bus" /> Автобус<br /> 
+<input type="submit" value="OK" />
+<input type="reset" value="Reset" />
 </form>
 <html>
 

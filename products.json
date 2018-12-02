@@ -4,8 +4,8 @@
     "name": "Шерлок",
     "specs": {
       "cuisine": "Британия",
-      "ingredients": "Триллер",
-      "sphere": "Триллер", 
+      "ingredients": "триллер",
+      "sphere": "триллер", 
       "type": "Пол МакГиган, Ник Харран, Коки Гидройч"
       
     },
@@ -52,9 +52,9 @@
     "name": "Диана Спенсер",
     "specs": {
       "cuisine": "французский",
-      "ingredients": "биографии",
+      "ingredients": "детектив",
       "type": "В. Балашова",
-      "sphere": "Биографии"
+      "sphere": "детектив"
     },
     "description": "Diana Spencer est la plus célèbre et la plus mystérieuse femme du royaume-Uni, qui est entré dans l'histoire comme la princesse de Galles, l'épouse du prince Charles. De même, elle est devenue célèbre? Quel est le secret de sa mort? Et pourquoi l'enquête tragique terminer le chemin de vie de Diane dure jusqu'à présent? Les réponses à ces questions vous cherchez dans l'article.",
    "image": {
